@@ -1,0 +1,9 @@
+poisson_fd.o: poisson_fd.cc poisson_fd.hh tgmg.hh tgmg_config.hh \
+ tgmg_predict.hh tgmg.cc
+poisson_fem.o: poisson_fem.cc tgmg.hh tgmg_config.hh tgmg_predict.hh \
+ poisson_fem.hh tgmg.cc tgmg_debug.cc
+conj_grad.o: conj_grad.cc conj_grad.hh
+mpcg_fem.o: mpcg_fem.cc mpcg_fem.hh conj_grad.hh poisson_fem.hh tgmg.hh \
+ tgmg_config.hh tgmg_predict.hh vpoiss_fem.hh
+vpoiss_fem.o: vpoiss_fem.cc tgmg.hh tgmg_config.hh tgmg_predict.hh \
+ vpoiss_fem.hh tgmg.cc tgmg_debug.cc
