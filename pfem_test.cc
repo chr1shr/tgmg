@@ -23,7 +23,7 @@ int main() {
     // Create the problem class
     poisson_fem pfem(m,n,false,false,true,dx,dy);
 
-    // Creat the multigrid class
+    // Create the multigrid class
     double *b=pfem.b,*z=pfem.z;
     tgmg<poisson_fem,double,double> mg(pfem,b,z);
     mg.verbose=3;
