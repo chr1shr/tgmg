@@ -165,7 +165,8 @@ iteration, but this is only approximate since once the algorithm converges, the
 residual may be dominated by rounding error.
 
 The images below show the source term (left) and the solution (right).
-![Plots of Gaussian source term (left) and solution to the Poisson equation (right)](http://seas.harvard.edu/~chr/tgmg/pfdt.png)
+
+![Plots of Gaussian source term (left) and solution to the Poisson equation](https://people.seas.harvard.edu/~chr/tgmg/pfdt.png)
 
 ## Structure of the problem class
 The linear system in the previous example is specified in the **poisson_fd**
@@ -187,6 +188,7 @@ is not given, because it is possible to infer it using simple calculations from
 the other two.
 
 Nine functions set the terms in the linear system:
+
 |--------------|--------------|--------------|
 |**a_ul(i,ij)**|**a_uc(i,ij)**|**a_ur(i,ij)**|
 |--------------|--------------|--------------|
@@ -194,6 +196,7 @@ Nine functions set the terms in the linear system:
 |--------------|--------------|--------------|
 |**a_dl(i,ij)**|**a_dc(i,ij)**|**a_dr(i,ij)**|
 |--------------|--------------|--------------|
+
 For a given grid point, these functions return the matrix entries corresponding
 to the 3 &times; 3 set of neighboring grid points.
 
