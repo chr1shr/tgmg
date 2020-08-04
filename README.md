@@ -189,13 +189,10 @@ the other two.
 
 Nine functions set the terms in the linear system:
 
-|--------------|--------------|--------------|
 |**a_ul(i,ij)**|**a_uc(i,ij)**|**a_ur(i,ij)**|
 |--------------|--------------|--------------|
 |**a_cl(i,ij)**|**a_cc(i,ij)**|**a_cr(i,ij)**|
-|--------------|--------------|--------------|
 |**a_dl(i,ij)**|**a_dc(i,ij)**|**a_dr(i,ij)**|
-|--------------|--------------|--------------|
 
 For a given grid point, these functions return the matrix entries corresponding
 to the 3 &times; 3 set of neighboring grid points.
