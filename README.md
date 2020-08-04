@@ -14,14 +14,14 @@ It works on any m &times; n rectangular grid, using either periodic or
 non-periodic boundary conditions.
 
 The library will only solve linear systems where the non-zero terms connect
-each grid point to its 3 \times; 3 square of orthogonal and diagonal neighbors,
+each grid point to its 3 &times; 3 square of orthogonal and diagonal neighbors,
 but this includes a wide-range of systems arising in finite-difference and
 finite-element discretizations.
 
 The library is [header-only](https://en.wikipedia.org/wiki/Header-only). To use
 the library, the user must write a problem class that encapsulates all of the
 details of the linear system to be solved. Several examples are provided. This
-documentation assumes that the reader is familar with the principles behind
+documentation assumes that the reader is familiar with the principles behind
 multigrid methods; for an introduction, see the textbooks by Briggs *et al.*
 [1] and Demmel [2].
 
@@ -241,12 +241,12 @@ It has been used in a sequence of papers that study bulk metallic glasses
 [8,9,10], a new type of alloy under consideration for a variety of technological
 applications. It has been used in the incompressible reference map technique [5],
 a new numerical method for fluid–structure interaction. In has also been use
-to inforce incompressibility constraints in models of porous media flow [6,11].
+to enforce incompressibility constraints in models of porous media flow [6,11].
 
 ## Contact
 For questions about the code, contact [Chris Rycroft](http://seas.harvard.edu/~chr/).
 
-## Acknowledgements
+## Acknowledgments
 This work has been partially supported by the National Science Foundation under
 Grant Nos. DMR-1409560 and DMS-1753203, and by the Applied Mathematics Program
 of the U.S. DOE Office of Science Advanced Scientific Computing Research under
